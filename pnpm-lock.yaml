@@ -29,7 +29,7 @@ specifiers:
   request: 2.88.2
   strip-ansi: ^6.0.0
   tempy: 3.0.0
-  typedoc: 0.23.8
+  typedoc: 0.23.21
   typescript: 4.7.4
   vitest: 0.18.1
 
@@ -64,7 +64,7 @@ devDependencies:
   prettier: 2.7.1
   request: 2.88.2
   tempy: 3.0.0
-  typedoc: 0.23.8_typescript@4.7.4
+  typedoc: 0.23.21_typescript@4.7.4
   typescript: 4.7.4
   vitest: 0.18.1
 
@@ -2807,8 +2807,8 @@ packages:
       strip-color: 0.1.0
     dev: true
 
-  /marked/4.0.17:
-    resolution: {integrity: sha512-Wfk0ATOK5iPxM4ptrORkFemqroz0ZDxp5MWfYA7H/F+wO17NRWV5Ypxi6p3g2Xmw2bKeiYOl6oVnLHKxBA0VhA==}
+  /marked/4.2.2:
+    resolution: {integrity: sha512-JjBTFTAvuTgANXx82a5vzK9JLSMoV6V3LBVn4Uhdso6t7vXrGx7g1Cd2r6NYSsxrYbQGFCMqBDhFHyK5q2UvcQ==}
     engines: {node: '>= 12'}
     hasBin: true
     dev: true
@@ -3517,12 +3517,12 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /shiki/0.10.1:
-    resolution: {integrity: sha512-VsY7QJVzU51j5o1+DguUd+6vmCmZ5v/6gYu4vyYAhzjuNQU6P/vmSy4uQaOhvje031qQMiW0d2BwgMH52vqMng==}
+  /shiki/0.11.1:
+    resolution: {integrity: sha512-EugY9VASFuDqOexOgXR18ZV+TbFrQHeCpEYaXamO+SZlsnT/2LxuLBX25GGtIrwaEVFXUAbUQ601SWE2rMwWHA==}
     dependencies:
       jsonc-parser: 3.0.0
       vscode-oniguruma: 1.6.2
-      vscode-textmate: 5.2.0
+      vscode-textmate: 6.0.0
     dev: true
 
   /side-channel/1.0.4:
@@ -3912,17 +3912,17 @@ packages:
     resolution: {integrity: sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=}
     dev: true
 
-  /typedoc/0.23.8_typescript@4.7.4:
-    resolution: {integrity: sha512-NLRTY/7XSrhiowR3xnH/nlfTnHk+dkzhHWAMT8guoZ6RHCQZIu3pJREMCqzdkWVCC5+dr9We7TtNeprR3Qy6Ag==}
+  /typedoc/0.23.21_typescript@4.7.4:
+    resolution: {integrity: sha512-VNE9Jv7BgclvyH9moi2mluneSviD43dCE9pY8RWkO88/DrEgJZk9KpUk7WO468c9WWs/+aG6dOnoH7ccjnErhg==}
     engines: {node: '>= 14.14'}
     hasBin: true
     peerDependencies:
-      typescript: 4.6.x || 4.7.x
+      typescript: 4.6.x || 4.7.x || 4.8.x || 4.9.x
     dependencies:
       lunr: 2.3.9
-      marked: 4.0.17
+      marked: 4.2.2
       minimatch: 5.1.0
-      shiki: 0.10.1
+      shiki: 0.11.1
       typescript: 4.7.4
     dev: true
 
@@ -4077,8 +4077,8 @@ packages:
     resolution: {integrity: sha512-KH8+KKov5eS/9WhofZR8M8dMHWN2gTxjMsG4jd04YhpbPR91fUj7rYQ2/XjeHCJWbg7X++ApRIU9NUwM2vTvLA==}
     dev: true
 
-  /vscode-textmate/5.2.0:
-    resolution: {integrity: sha512-Uw5ooOQxRASHgu6C7GVvUxisKXfSgW4oFlO+aa+PAkgmH89O3CXxEEzNRNtHSqtXFTl0nAC1uYj0GMSH27uwtQ==}
+  /vscode-textmate/6.0.0:
+    resolution: {integrity: sha512-gu73tuZfJgu+mvCSy4UZwd2JXykjK9zAZsfmDeut5dx/1a7FeTk0XwJsSuqQn+cuMCGVbIBfl+s53X4T19DnzQ==}
     dev: true
 
   /wcwidth/1.0.1:
